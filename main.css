@@ -131,3 +131,15 @@
     font-weight: semibold;
     src: url(fonts/gg-sans/ggsans-Semibold.ttf) format("ttf");
 }
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
